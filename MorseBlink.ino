@@ -1,6 +1,6 @@
 /*
   MorseBlink
-  Turns a string into a Morse Code sequence
+  Turns a string into a led Morse Code sequence
   
   created July 31 2014
   by Marcos Labad
