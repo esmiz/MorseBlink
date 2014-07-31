@@ -6,6 +6,7 @@
   by Marcos Labad
  */
  
+ // led port to use
  int led = 13; 
 
  // set the dot duration. Any other depend on it
@@ -23,7 +24,7 @@
 // setup func
 void setup() {
   // initialize digital pin 13, Arduino UNO built in
-  pinMode(13, OUTPUT);
+  pinMode(led, OUTPUT);
   // initialize Serial
   Serial.begin(9600);
 }
